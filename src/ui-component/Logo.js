@@ -1,22 +1,8 @@
-// material-ui
-// import { useTheme } from '@mui/material/styles';
-
-/**
- * if you want to use image instead of <svg> uncomment following.
- *
- * import logoDark from 'assets/images/logo-dark.svg';
- * import logo from 'assets/images/logo.svg';
- *
- */
-
-// ==============================|| LOGO SVG ||============================== //
-
 const Logo = () => {
-  // const theme = useTheme();
 
   return (
   
-      <img src='/bank.png' alt="Berry" width="60" />
+      <img src={process.env.PUBLIC_URL + '/images/bank.png'}  alt="bank-logo" width="60" />
      
 
   );

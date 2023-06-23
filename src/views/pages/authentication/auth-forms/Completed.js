@@ -27,7 +27,7 @@ const Completed = () => {
   });
 const redict = () =>{
     localStorage.clear();
-    window.location.href="/create-account";
+    window.location.href="/";
 }
   return (
     <>

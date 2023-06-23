@@ -68,7 +68,7 @@ const PersonalDetails = () => {
     localStorage.removeItem('email', email);
     localStorage.removeItem('pincode', pincode);
     localStorage.removeItem('name',name);
-    window.location.href="/create-account"
+    window.location.href="/"
   }
 
   const [selectedFiles, setSelectedFiles] = useState(undefined);

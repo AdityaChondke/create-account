@@ -25,7 +25,7 @@ const AuthLogin3 = Loadable(lazy(() => import('views/pages/authentication/authen
 const MainRoutes = {
   children: [
     {
-      path: 'create-account',
+      path: '/',
       element: <AuthLogin3/>,
     },
     {
